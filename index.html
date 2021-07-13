@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="images/klassy-logo.png" alt="Logo">
+            </div>
+            <ul class="nav-menu" id="myTopnav">
+                <a href="#"><li class="active">Home</li></a>
+                <a href="#"><li>About</li></a>
+                <a href="#"><li>Menu</li></a>
+                <a href="#"><li>Chefs</li></a>
+                <li class="dropdown">
+                    <a href="" class="dropbtn">Features <i class="fas fa-angle-down"></i></a>
+                    <div class="dropdown-content">
+                        <a href="#">Page 1</a>
+                        <a href="#">Page 2</a>
+                        <a href="#">Page 3</a>
+                        <a href="#">Page 4</a>
+                    </div>
+                </li>
+                <a href="#"><li>Contact Us</li></a>
+            </ul>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </nav>
+    </header>
+    <main>
+        <div class="banner-container">
+            <div class="banner-row">
+                <div class="banner-col1">
+                    <img src="images/top-left-bg.jpg" alt="intro-bg">
+                    <div class="banner-details">
+                        <span class="banner-heading">KlassyCafe</span>
+                        <span class="banner-subHeading">The Best Experience</span>
+                        <a href="#" class="banner-button">Make A Reservation</a>
+                    </div>
+                </div>
+                <div class="banner-col2">
+                    <img src="images/slide-01.jpg" alt="Slider">
+                </div>
+            </div>
+        </div>
+        <div class="about-container">
+            <div class="about-row">
+                <div class="about-col">
+                    <span class="about-heading">About Us</span>
+                    <span class="about-sub-Heading">We Leave A Delicious Memory For You</span>
+                    <span class="about-body"><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum fuga beatae eos facilis deleniti incidunt tenetur et! Sapiente, sit! Perspiciatis, minima deleniti. Illo possimus eligendi quasi officia repellat dolore aliquam.</p><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum fuga beatae eos facilis deleniti incidunt tenetur et! Sapiente, sit! Perspiciatis, minima deleniti. Illo possimus eligendi quasi officia repellat dolore aliquam.</p></span>
+                    <div class="about-img-row">
+                        <div class="about-img-col">
+                            <img src="images/about-thumb-01.jpg" alt="">
+                        </div>
+                        <div class="about-img-col">
+                            <img src="images/about-thumb-02.jpg" alt="">
+                        </div>
+                        <div class="about-img-col">
+                            <img src="images/about-thumb-03.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="about-col">
+                    <img src="images/about-video-bg.jpg" alt="">
+                    <a href="#" class="play-button">
+                        <i class="fas fa-play"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="menu-container">
+            <div class="menu-header">
+                <span class="menu-heading">Our Menu</span>
+                <span class="menu-subHeading">Our Selection of cakes with quality taste</span>
+            </div>
+            <div class="menu-row">
+                <div class="menu-col">
+                    <img src="images/menu-item-01.jpg" alt="Item 1">
+                    <span class="price">$14</span>
+                    <div class="menu-details">
+                        <span class="food-heading">Chocolate Cake</span>
+                        <span class="food-body">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum, nemo. Est itaque ipsum eaque. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
+                        <a href="#" class="menu-link">Make Reservation <i class="fas fa-angle-down"></i></a>
+                    </div>
+                </div>
+                <div class="menu-col">
+                    <img src="images/menu-item-02.jpg" alt="Item 1">
+                    <span class="price">$22</span>
+                    <div class="menu-details">
+                        <span class="food-heading">Klassy Pancake</span>
+                        <span class="food-body">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum, nemo. Est itaque ipsum eaque. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
+                        <a href="#" class="menu-link">Make Reservation <i class="fas fa-angle-down"></i></a>
+                    </div>
+                </div>
+                <div class="menu-col">
+                    <img src="images/menu-item-03.jpg" alt="Item 1">
+                    <span class="price">$18</span>
+                    <div class="menu-details">
+                        <span class="food-heading">Tall Klassy Bread</span>
+                        <span class="food-body">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum, nemo. Est itaque ipsum eaque. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
+                        <a href="#" class="menu-link">Make Reservation <i class="fas fa-angle-down"></i></a>
+                    </div>
+                </div>
+                <div class="menu-col">
+                    <img src="images/menu-item-04.jpg" alt="Item 1">
+                    <span class="price">$10</span>
+                    <div class="menu-details">
+                        <span class="food-heading">Blueberry Cheese Cake</span>
+                        <span class="food-body">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum, nemo. Est itaque ipsum eaque. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
+                        <a href="#" class="menu-link">Make Reservation <i class="fas fa-angle-down"></i></a>
+                    </div>
+                </div>
+                <div class="menu-col">
+                    <img src="images/menu-item-05.jpg" alt="Item 1">
+                    <span class="price">$8.50</span>
+                    <div class="menu-details">
+                        <span class="food-heading">Klassy Cupcake</span>
+                        <span class="food-body">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum, nemo. Est itaque ipsum eaque. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
+                        <a href="#" class="menu-link">Make Reservation <i class="fas fa-angle-down"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="chefs-container">
+            <div class="chefs-header">
+                <span class="chef-heading">Our Chefs</span>
+                <span class="chef-subHeading">We offer the best ingredients for you</span>
+            </div>
+            <div class="chef-row">
+                <div class="chef-col">
+                    <img src="images/chefs-01.jpg" alt="">
+                    <div class="chef-social">
+                        <a href="#" class="chef-social-button fb">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="chef-social-button">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="chef-social-button twitter">
+                            <i class="fab fa-twitter"></i></i>
+                        </a>
+                    </div>
+                    <div class="chef-details">
+                        <span class="chef-name">Randy Walker</span>
+                        <span class="chef-type">Pastry Chef</span>
+                    </div>
+                </div>
+                <div class="chef-col">
+                    <img src="images/chefs-02.jpg" alt="">
+                    <div class="chef-social">
+                        <a href="#" class="chef-social-button fb">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="chef-social-button">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="chef-social-button twitter">
+                            <i class="fab fa-twitter"></i></i>
+                        </a>
+                    </div>
+                    <div class="chef-details">
+                        <span class="chef-name">David Martin</span>
+                        <span class="chef-type">Cookiee Chef</span>
+                    </div>
+                </div>
+                <div class="chef-col">
+                    <img src="images/chefs-03.jpg" alt="">
+                    <div class="chef-social">
+                        <a href="#" class="chef-social-button fb">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="chef-social-button">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="chef-social-button twitter">
+                            <i class="fab fa-twitter"></i></i>
+                        </a>
+                    </div>
+                    <div class="chef-details">
+                        <span class="chef-name">Peter Perkson</span>
+                        <span class="chef-type">Pancake Chef</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="contact-container">
+            <div class="contact-row">
+                <div class="contact-col">
+                    <div class="contact-details">
+                        <span class="contact-heading">Contact Us</span>
+                        <span class="contact-subHeading">Here You Can Make A Reservation Or Just walkin to our cafe</span>
+                        <span class="contact-body">Donec pretium est orci, non vulputate arcu hendrerit a. Fusce a eleifend riqsie, namei sollicitudin urna diam, sed commodo purus porta ut.</span>
+                        <div class="contacts-row">
+                            <div class="contacts-col">
+                                <div class="phone-logo">
+                                    <i class="fas fa-phone-alt"></i>
+                                </div>
+                                <span class="contacts-heading">Phone Numbers</span>
+                                <a href="#" class="contacts-body">080-090-0990</a>
+                                <a href="#" class="contacts-body">080-090-0880</a>
+                            </div>
+                        <div class="contacts-col">
+                            <div class="phone-logo">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <span class="contacts-heading">Emails</span>
+                            <a href="#" class="contacts-body">hello@company.com</a>
+                            <a href="#" class="contacts-body">info@company.com</a>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-col">
+                    <div class="form">
+                        <span class="form-heading">Table Reservation</span>
+                        <form action="#">
+                            <section class="text-field">
+                                <input type="text" name="name" id="" placeholder="Your Name*" required>
+                                <input type="email" name="email" id="" placeholder="Your Email Address">
+                            </section>
+                            <section class="text-field">
+                                <input type="tel" name="phone" id="" placeholder="Phone Number*" required>
+                                <select name="guests" id="">
+                                    <option value="" selected>Number of Guests</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>
+                                    <option value="7">7</option>
+                                    <option value="8">8</option>
+                                    <option value="9">9</option>
+                                    <option value="10">10</option>
+                                    <option value="11">11</option>
+                                    <option value="12">12</option>
+                                </select>
+                            </section>
+                            <section class="text-field">
+                                <input type="date" name="date" id="">
+                                <select name="time" id="">
+                                    <option value="" selected>Time</option>
+                                    <option value="">Breakfast</option>
+                                    <option value="">Lunch</option>
+                                    <option value="">Dinner</option>
+                                </select>
+                            </section>
+                            <textarea name="" id="" rows="6" placeholder="Messege..."></textarea>
+                            <input type="submit" value="Make A Reservation">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="klassy-week">
+            <div class="week-header">
+                <span class="week-heading">Klassy Week</span>
+                <span class="week-subHeading">This Week’s Special Meal Offers</span>
+                <div class="week-division-row">
+                    <div class="week-division-col">
+                        <a href="#"><img src="images/tab-icon-01.png" alt="">
+                        <span class="division-heading active">Breakfast</span></a>
+                    </div>
+                    <div class="week-division-col">
+                        <a href="#"><img src="images/tab-icon-02.png" alt="">
+                        <span class="division-heading">Lunch</span></a>
+                    </div>
+                    <div class="week-division-col">
+                        <a href="#"><img src="images/tab-icon-03.png" alt="">
+                        <span class="division-heading">Dinner</span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="klassy-week-row">
+                <div class="klassy-week-col">
+                    <div class="week-menu-col1">
+                        <img src="images/tab-item-01.png" alt="">
+                    </div>
+                    <div class="week-menu-col2">
+                        <span class="week-menu-heading">Fresh Chicken Salad</span>
+                        <span class="week-menu-body">Lorem ipsum dolor sit amet, consectetur koit adipiscing elit, sed do.</span>
+                    </div>
+                    <div class="week-menu-col1">
+                        <div class="week-menu-price">
+                            <span>$10.50</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="klassy-week-col">
+                    <div class="week-menu-col1">
+                        <img src="images/tab-item-04.png" alt="">
+                    </div>
+                    <div class="week-menu-col2">
+                        <span class="week-menu-heading">Eggs Omelette</span>
+                        <span class="week-menu-body">Lorem ipsum dolor sit amet, consectetur koit adipiscing elit, sed do.</span>
+                    </div>
+                    <div class="week-menu-col1">
+                        <div class="week-menu-price">
+                            <span>$6.50</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="klassy-week-row">
+                <div class="klassy-week-col">
+                    <div class="week-menu-col1">
+                        <img src="images/tab-item-02.png" alt="">
+                    </div>
+                    <div class="week-menu-col2">
+                        <span class="week-menu-heading">Orange Juice</span>
+                        <span class="week-menu-body">Lorem ipsum dolor sit amet, consectetur koit adipiscing elit, sed do.</span>
+                    </div>
+                    <div class="week-menu-col1">
+                        <div class="week-menu-price">
+                            <span>$8.50</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="klassy-week-col">
+                    <div class="week-menu-col1">
+                        <img src="images/tab-item-05.png" alt="">
+                    </div>
+                    <div class="week-menu-col2">
+                        <span class="week-menu-heading">Dollma Pire</span>
+                        <span class="week-menu-body">Lorem ipsum dolor sit amet, consectetur koit adipiscing elit, sed do.</span>
+                    </div>
+                    <div class="week-menu-col1">
+                        <div class="week-menu-price">
+                            <span>$5.00</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="klassy-week-row">
+                <div class="klassy-week-col">
+                    <div class="week-menu-col1">
+                        <img src="images/tab-item-03.png" alt="">
+                    </div>
+                    <div class="week-menu-col2">
+                        <span class="week-menu-heading">Fruit Salad</span>
+                        <span class="week-menu-body">Lorem ipsum dolor sit amet, consectetur koit adipiscing elit, sed do.</span>
+                    </div>
+                    <div class="week-menu-col1">
+                        <div class="week-menu-price">
+                            <span>$9.90</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="klassy-week-col">
+                    <div class="week-menu-col1">
+                        <img src="images/tab-item-06.png" alt="">
+                    </div>
+                    <div class="week-menu-col2">
+                        <span class="week-menu-heading">Omelette & Cheese</span>
+                        <span class="week-menu-body">Lorem ipsum dolor sit amet, consectetur koit adipiscing elit, sed do.</span>
+                    </div>
+                    <div class="week-menu-col1">
+                        <div class="week-menu-price">
+                            <span>$4.10</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-row">
+            <div class="footer-col">
+                <div class="footer-social-media">
+                    <a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <div class="footer-logo">
+                    <a href="#"><img src="images/white-logo.png" alt=""></a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <div class="footer-copyright">
+                    <span>&copy; Copyright Klassy Cafe Co.</span>
+                    <span>Design: TemplateMo</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "nav-menu") {
+            x.className += " responsive";
+          } else {
+            x.className = "nav-menu";
+          }
+        }
+    </script>
+</body>
+</html>
