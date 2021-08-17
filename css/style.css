@@ -853,11 +853,6 @@ footer{
         margin-top: 15px;
         margin-left: 20px;
     }
-    .logo img{
-        height: 90%;
-        width: 90%;
-        object-fit: cover;
-    }
     .nav-menu{
         display: none;
     }
