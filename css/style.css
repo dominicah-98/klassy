@@ -896,7 +896,7 @@ footer{
         padding: 400px 50px 50px 50px;
     }
     .menu-container, .chefs-container, .contact-container, .klassy-week, footer{
-        padding: 50px 50px;
+        padding: 50px 20px;
         margin: 0;
     }
     .banner-row, .about-row, .menu-row, .chef-row, .contact-row, .contacts-row, .text-field, .klassy-week-row, .footer-row{
