@@ -855,6 +855,11 @@ footer{
         width: 30px;
         height: 20px;
     }
+    .logo img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
     .nav-menu{
         display: none;
     }
