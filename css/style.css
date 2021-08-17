@@ -851,8 +851,9 @@ footer{
     }
     .logo{
         margin-top: 15px;
-        margin-left: 30px;
-        width: 40px;
+        margin-left: 20px;
+        width: 30px;
+        height: 20px;
     }
     .nav-menu{
         display: none;
@@ -861,7 +862,7 @@ footer{
         display: block;
         position: absolute;
         top: 25px;
-        right: 30px;
+        right: 20px;
         color: #1B1C1E;
         font-size: 23px;
     }
