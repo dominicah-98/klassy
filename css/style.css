@@ -835,7 +835,7 @@ footer{
 .footer-copyright span{
     display: block;
 }
-@media screen and (max-width: 600px){
+@media screen and (max-width: 576px){
     header{
         width: 100%;
         padding: 0;
